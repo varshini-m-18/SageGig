@@ -50,10 +50,10 @@ It detects real-world disruptions using APIs and instantly triggers claims and p
 
 Payout is triggered automatically when:
 
-- Heavy Rain 🌧️  
-- Extreme Heat 🔥  
-- High Pollution 🌫️  
-- Flood conditions 🌊  
+- Heavy Rain   
+- Extreme Heat   
+- High Pollution   
+- Flood conditions   
 
 (Note: Only income loss is covered)
 
@@ -106,6 +106,14 @@ Payout is triggered automatically when:
 - Fraud detection improvements  
 - Payment integration  
 - Analytics dashboard  
+
+---
+
+## 🎥 Demo Video
+
+CLick here to watch our 2 - minute demo :
+
+https://drive.google.com/file/d/1Ezc1H_2kyOEDbOy7Av-84QU08mvt0WcI/view?usp=sharing
 
 ---
 
