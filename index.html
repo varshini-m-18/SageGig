@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SafeGig</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🚀 SafeGig</h1>
+    <p class="subtitle">Protect Your Weekly Income</p>
+
+    <!-- REGISTER -->
+    <div class="card">
+        <h2>👤 Registration</h2>
+        <input type="text" id="name" placeholder="Enter Name">
+        <input type="text" id="location" placeholder="Enter Location">
+        <button onclick="register()">Register</button>
+        <p id="welcome"></p>
+    </div>
+
+    <!-- AI RISK -->
+    <div class="card">
+        <h2>🤖 AI Risk Engine</h2>
+        <p>🌧️ Rain Risk: <span id="rainRisk">--</span></p>
+        <p>🔥 Heat Risk: <span id="heatRisk">--</span></p>
+        <button onclick="calculateRisk()">Analyze Risk</button>
+    </div>
+
+    <!-- PREMIUM -->
+    <div class="card">
+        <h2>💸 Dynamic Premium</h2>
+        <p id="premium">Click "Analyze Risk" first</p>
+    </div>
+
+    <!-- POLICY -->
+    <div class="card">
+        <h2>📜 Policy Management</h2>
+        <button onclick="activatePolicy()">Activate Policy</button>
+        <p id="policyStatus"></p>
+    </div>
+
+    <!-- TRIGGERS -->
+    <div class="card highlight">
+        <h2>⚡ Auto Triggers</h2>
+        <button onclick="triggerEvent('rain')">🌧️ Heavy Rain</button>
+        <button onclick="triggerEvent('heat')">🔥 Heat Wave</button>
+        <button onclick="triggerEvent('pollution')">🌫️ Pollution</button>
+        <p id="triggerStatus"></p>
+    </div>
+
+    <!-- CLAIM -->
+    <div class="card claim">
+        <h2>💰 Claims Management</h2>
+        <p id="claimResult">No claims yet</p>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
